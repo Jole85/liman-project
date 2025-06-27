@@ -1,0 +1,209 @@
+/**
+Palette:
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+html {
+  font-size: 32px;
+}
+
+body {
+  text-align: center;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.hero {
+  background-image: url("images/grad1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+  padding: 40px;
+}
+
+#hero-text-1:hover {
+  text-shadow: 0 0 15px #457b9d;
+  box-shadow: 0 0 15px #e63946;
+}
+
+#hero-text-2:hover {
+  text-shadow: 0 0 15px #1d3557;
+  box-shadow: 0 0 25px #e63946;
+}
+
+#main-logo:hover {
+  box-shadow: 0 0 25px #e63946;
+  width: 62px;
+  height: 62px;
+}
+
+#park > img:hover,
+#plaza > img:hover,
+#stadion > img:hover,
+#most > img:hover {
+  box-shadow: 0 0 25px #e63946;
+  width: 85px;
+  height: 85px;
+}
+
+#hero-text-1 {
+  width: 290px;
+  background-color: #1d3557;
+  font-size: 1rem;
+  text-shadow: -3px 3px 3px black;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  border: 3px solid #457b9d;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  padding-top: 6px;
+  padding-left: 10px;
+}
+
+#hero-text-2 {
+  width: 415px;
+  background-color: #457b9d;
+  font-size: 0.8rem;
+  text-shadow: -2px 2px 3px black;
+  border: 3px solid #1d3557;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+  padding: 2px;
+}
+
+#main-logo {
+  width: 60px;
+  height: 60px;
+  border: 4px outset #457b9d;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #1d3557;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  margin-top: -35px;
+}
+
+.activities {
+  border-radius: 10px;
+  background: #f1faee;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  color: #1d3557;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.8rem;
+  padding-top: 1px;
+  margin-top: 0.1rem;
+}
+
+#activities-head {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2px;
+}
+
+.activities-pictures {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-size: 0.3rem;
+}
+
+#park {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#park > p:hover,
+#plaza > p:hover,
+#most > p:hover,
+#stadion > p:hover {
+  font-size: 0.4rem;
+  box-shadow: 0 0 50px #e63946;
+  border-radius: 0 10px 10px 10px;
+}
+.activities-pictures > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+h3:hover {
+  text-shadow: 0 0 30px #e63946;
+  font-size: 1.1rem;
+}
+
+#plaza {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#most {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.underline {
+  color: #e63946;
+  font-size: 1rem;
+  border-bottom: 4px double aqua;
+}
+
+.underline:hover {
+  font-size: 1rem;
+}
+.underline-1 {
+  color: #e63946;
+  font-weight: 700;
+}
+
+.guide {
+  display: flex;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  justify-content: space-around;
+  background-color: #a8dadc;
+  width: 400px;
+  top: 50px;
+  left: 160px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px solid #1d3557;
+}
+
+.guide:hover {
+  box-shadow: 0 0 25px #e63946;
+}
+
+#profilna {
+  height: 2.5rem;
+  border-radius: 10px;
+  margin: 8px;
+  border: 3px outset #457b9d;
+}
+
+#guide-text {
+  font-size: 0.33rem;
+  padding-right: 20px;
+  color: #1d3557;
+}
